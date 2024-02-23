@@ -19,3 +19,14 @@ D’abord , on a le buttonRegles: déclenche une note d’informations pour la f
 Le Bouton Pause: pour quitter le  jeu. On utilise pour ce bouton la fonction JOptionPane.YES_NO_OPTION.
 Le Bouton clickCarte: quand on clique sur ce bouton, une carte aléatoire de notre listeCartes s’affiche au milieu de la fenêtre. On récupère chaque carte (image carte) par son nom, sa couleur en utilisant la méthode (getImage() )de la classe Carte.
 Le Bouton DistribuerCartes: quand on clique sur ce bouton, 3 cartes pour chaque joueur s’affichent l’une à côté de l’autre de côté de chacun les deux joueurs. Pour ce button on utilise 2 cartes(cartePlayer1, cartePlayer2), 2 buttons (cardButton1, cardButton2) avec une boucle for qui stocke dans chaque cardButton 3 carte.
+
+![image](https://github.com/sana-rekbi/color-addict/assets/138128268/bb1583f5-2c64-4c09-b2a4-b45164b0c976)
+
+![image](https://github.com/sana-rekbi/color-addict/assets/138128268/6f762857-7839-42be-8835-fd468afc7d63)
+
+![image](https://github.com/sana-rekbi/color-addict/assets/138128268/0acef057-cbe0-407e-93a5-ca9ba2adac1c)
+![image](https://github.com/sana-rekbi/color-addict/assets/138128268/0feacc9f-0eea-40e1-b4d5-46b1a64b5b6d)
+
+
+![image](https://github.com/sana-rekbi/color-addict/assets/138128268/af1793c2-29ce-4d1e-bb1b-228b4510d214)
+
