@@ -31,4 +31,4 @@ Le Bouton DistribuerCartes: quand on clique sur ce bouton, 3 cartes pour chaque 
 
 
 ![image](https://github.com/sana-rekbi/color-addict/assets/138128268/af1793c2-29ce-4d1e-bb1b-228b4510d214)
-
+par  REKBI Sana/ EL BAKHTAOUI Wassim 
