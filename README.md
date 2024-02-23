@@ -1,5 +1,5 @@
 # color-addict
-par REKBI Sana/ EL BAKHTAOUI Wassim 
+
 
 
 Application de jeu de cartes "Color Addict", développée en Java.
