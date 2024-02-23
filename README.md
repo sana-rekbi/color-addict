@@ -26,6 +26,8 @@ Le Bouton DistribuerCartes: quand on clique sur ce bouton, 3 cartes pour chaque 
 
 ![image](https://github.com/sana-rekbi/color-addict/assets/138128268/0acef057-cbe0-407e-93a5-ca9ba2adac1c)
 ![image](https://github.com/sana-rekbi/color-addict/assets/138128268/0feacc9f-0eea-40e1-b4d5-46b1a64b5b6d)
+![image](https://github.com/sana-rekbi/color-addict/assets/138128268/c70b0e16-c727-4b12-b881-9f22a6a70f49)
+![image](https://github.com/sana-rekbi/color-addict/assets/138128268/c3e54035-b078-48ed-9420-87e0ea1c2eed)
 
 
 ![image](https://github.com/sana-rekbi/color-addict/assets/138128268/af1793c2-29ce-4d1e-bb1b-228b4510d214)
