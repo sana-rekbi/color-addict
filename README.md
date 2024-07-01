@@ -13,7 +13,7 @@ Pour ce projet, nous avons opté pour plusieurs différents modèles afin de con
 
 2. Joueur.java : Classe correspondant à un joueur, permettant de jouer une carte et de piocher selon les règles.
 
-3.Jeu.java : Classe abstraite pour modéliser le jeu. Elle gère les piles de cartes (pioche et milieu), la liste de joueurs, et le compteur de tours, avec des méthodes pour la gestion et des conditions d’arrêt du jeu. Les méthodes abstraites sont implémentées par des classes filles pour 
+3. Jeu.java : Classe abstraite pour modéliser le jeu. Elle gère les piles de cartes (pioche et milieu), la liste de joueurs, et le compteur de tours, avec des méthodes pour la gestion et des conditions d’arrêt du jeu. Les méthodes abstraites sont implémentées par des classes filles pour 
 des règles spécifiques.
 
 4. Debutant.java : Étend Jeu.java et définit les règles pour les débutants, avec un mélange limité aux couleurs Rouge, Bleu, Jaune, Vert et Joker.
