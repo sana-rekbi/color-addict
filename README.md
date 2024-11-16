@@ -1,29 +1,54 @@
-# color-addict
+# 🎨 Color Addict 
 
-Par REKBI SANA/ EL BAKHTAOUI WASSIM
+![Java](https://img.shields.io/badge/Language-Java-blue)
+![Status](https://img.shields.io/badge/Status-Completed-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-Application de jeu de cartes "Color Addict", développée en Java.
-	
-Architecture du projet 
+Par **REKBI Sana** / **EL BAKHTAOUI Wassim**
 
+---
 
-Pour ce projet, nous avons opté pour plusieurs différents modèles afin de constituer notre jeu Color Addict.
+## 📋 Description
+Color Addict est une application de jeu de cartes, développée en **Java**, inspirée du jeu populaire où les joueurs doivent associer les couleurs le plus rapidement possible. Ce projet a été conçu dans le cadre d'un projet académique pour mettre en œuvre des concepts d'**orienté objet** et d'**interfaces graphiques**.
 
-1. Carte.java : Modélise une carte avec ses caractéristiques telles que sa couleur et son nom.
+---
 
-2. Joueur.java : Classe correspondant à un joueur, permettant de jouer une carte et de piocher selon les règles.
+## 🛠️ Architecture du Projet
 
-3. Jeu.java : Classe abstraite pour modéliser le jeu. Elle gère les piles de cartes (pioche et milieu), la liste de joueurs, et le compteur de tours, avec des méthodes pour la gestion et des conditions d’arrêt du jeu. Les méthodes abstraites sont implémentées par des classes filles pour 
-des règles spécifiques.
+L'application est construite en suivant une architecture modulaire pour assurer la réutilisabilité et la maintenabilité du code.
 
-4. Debutant.java : Étend Jeu.java et définit les règles pour les débutants, avec un mélange limité aux couleurs Rouge, Bleu, Jaune, Vert et Joker.
+### 🗂️ Structure des Classes
 
-5. Initié.java : Hérite de Jeu.java et définit les règles pour les initiés, sans limite de couleurs.
+- **`Carte.java`** : Modélise une carte avec ses caractéristiques (couleur, nom).
+- **`Joueur.java`** : Représente un joueur, avec des actions comme jouer une carte ou piocher selon les règles.
+- **`Jeu.java`** : Classe abstraite définissant les bases du jeu (gestion des piles de cartes, liste des joueurs, compteur de tours).
+  - Méthodes abstraites à implémenter par des classes dérivées pour des règles spécifiques.
+- **`Debutant.java`** : Hérite de `Jeu.java` et implémente des règles simplifiées (couleurs limitées).
+- **`Initié.java`** : Étend `Jeu.java` pour des joueurs initiés avec des règles plus avancées.
+- **`Confirmé.java`** : Implémente des règles pour joueurs confirmés, permettant à n'importe quel joueur de jouer dès qu'il le peut.
+- **`InterfaceGraphique.java`** : Gère l'interface utilisateur avec des panneaux, boutons et interactions.
 
-6. Confirmé.java : Hérite de Jeu.java et définit les règles pour les joueurs confirmés, où le premier qui peut jouer joue.
- 
-7. InterfaceGraphique.java : Gère l’interface utilisateur du jeu.
-Elle initialise une fenêtre principale JFrame avec différents panneaux JPanel pour les titres, cartes et boutons. Les boutons permettent de jouer, afficher les scores, quitter, choisir des niveaux et effectuer des actions spécifiques au jeu. La classe utilise des JOptionPane pour interagir avec l’utilisateur (demander les noms des joueurs, afficher des règles) et des ActionListener pour activer les boutons. Elle utilise JTable pour les scores, avec une méthode pour mettre à jour les scores selon les sanctions ou récompenses. Des boutons spécifiques (ButtonRegles, ButtonPiocher, ButtonclickCarte, ButtonDistribuerCartes, ButtonPause) déclenchent des actions propres : affichage des règles, pioche, distribution des cartes, etc.
+---
+
+## 🚀 Fonctionnalités
+
+- 🎮 **Modes de jeu** :
+  - Niveau Débutant : Couleurs limitées (Rouge, Bleu, Jaune, Vert, Joker).
+  - Niveau Initié : Toutes les couleurs disponibles.
+  - Niveau Confirmé : Le plus rapide gagne.
+- 🖥️ **Interface Utilisateur** :
+  - **Fenêtre JFrame** avec panneaux pour les cartes, boutons, et scores.
+  - **Interactions utilisateur** avec `JOptionPane` (saisie des noms des joueurs, affichage des règles).
+  - **Tableau de scores** interactif (`JTable`) pour suivre les performances.
+
+---
+
+## 🛠️ Installation & Exécution
+
+### 📦 Prérequis
+- **Java JDK 17** ou supérieur
+- **Maven** (optionnel pour la gestion des dépendances)
+
 
  
 
